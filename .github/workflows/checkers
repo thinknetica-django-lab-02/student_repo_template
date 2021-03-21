@@ -1,0 +1,9 @@
+name: Run linters on commit
+
+on: push
+
+jobs:
+  run_linter:
+    steps:
+      - name: Super-Linter
+        uses: github/super-linter@v3.15.3
