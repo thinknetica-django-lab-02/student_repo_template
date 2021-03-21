@@ -4,6 +4,7 @@ on: push
 
 jobs:
   run_linter:
+    runs-on: ubuntu-latest
     steps:
       - name: Super-Linter
         uses: github/super-linter@v3.15.3
